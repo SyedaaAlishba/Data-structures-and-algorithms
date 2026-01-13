@@ -5,8 +5,9 @@ void LinearSearch(int array[],int size, int target) {
     int index = -1;
     for (int i = 0; i < size; i++) {
         if (array[i]==target) {
-            cout << "FOUNT at index "<<i ;
+            cout << "FOUND at index "<<i ;
             index = i;
+            break;
         }
     }
     if (index == -1) {
