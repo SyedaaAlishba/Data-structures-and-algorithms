@@ -1,48 +1,32 @@
-## Linear Search Algorithm
+# Data Structures & Algorithms (DSA)
 
-This repository contains a simple implementation of the **Linear Search** algorithm using **C++**.
-
----
-
-## 📌 What is Linear Search?
-
-Linear Search is a basic searching algorithm that checks **each element of an array one by one** until the target value is found or the array ends.
+This repository contains all the **Data Structures and Algorithms (DSA)** practice tasks, assignments, and exercises completed during the **3rd semester** at the University of Karachi (UBIT Department).
 
 ---
 
 ## 🎯 Purpose
 
-* To understand the working of Linear Search
-* To practice array traversal using functions
-* To learn basic searching logic in DSA
+The main purpose of this repository is to organize and maintain all DSA tasks for:
+
+* Revision
+* Practice
+* Future reference
 
 ---
 
-## 🧠 How It Works
+## 🏫 University Information
 
-1. Start from the first element of the array
-2. Compare each element with the target value
-3. If a match is found, return its index
-4. If the loop ends and no match is found, display **NOT FOUND**
-
----
-
-## ⏱ Time & Space Complexity
-
-* **Time Complexity:** O(n)
-* **Space Complexity:** O(1)
-
----
-
-## 📚 Academic Context
-
+* **Institution:** University of Karachi
+* **Department:** UBIT (Department of Computer Science)
 * **Course:** Data Structures & Algorithms
-* **Semester:** 3rd Semester
-* **Institution:** University of Karachi (UBIT)
+* **Course Instructor:** Miss Mariyum Feroz
+
+## 📌 Note
+
+This repository is maintained for **educational purposes only** and follows the structure and tasks provided during class sessions.
 
 ---
 
-## ✨ Maintained By
+## 💻 Developed and Maintained By
 
-**Syeda Alishba**
-Student, UBIT – University of Karachi
+**Syeda Alishba** – Student, University of Karachi (UBIT)
