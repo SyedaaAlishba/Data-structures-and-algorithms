@@ -1,0 +1,3 @@
+C:/Users/PMLS/CLionProjects/Linkendlist/cmake-build-debug/CMakeFiles/Linkendlist.dir
+C:/Users/PMLS/CLionProjects/Linkendlist/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PMLS/CLionProjects/Linkendlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir
