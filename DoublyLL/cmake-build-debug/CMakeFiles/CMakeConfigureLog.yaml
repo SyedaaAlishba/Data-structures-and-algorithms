@@ -1,0 +1,299 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:38 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CUDA_COMPILER"
+    description: "CUDA compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+    candidate_directories:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/mingw/bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Softwares/Git/cmd/"
+      - "C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/"
+      - "C:/Users/PMLS/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Softwares/Microsoft VS Code/bin/"
+      - "C:/Users/PMLS/AppData/Roaming/npm/"
+      - "C:/mingw64/bin/g++.exe/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/mingw/bin/nvcc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/mingw/bin/nvcc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/mingw/bin/nvcc"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/nvcc.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/nvcc.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/nvcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nvcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nvcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nvcc"
+      - "C:/Windows/System32/nvcc.com"
+      - "C:/Windows/System32/nvcc.exe"
+      - "C:/Windows/System32/nvcc"
+      - "C:/Windows/nvcc.com"
+      - "C:/Windows/nvcc.exe"
+      - "C:/Windows/nvcc"
+      - "C:/Windows/System32/wbem/nvcc.com"
+      - "C:/Windows/System32/wbem/nvcc.exe"
+      - "C:/Windows/System32/wbem/nvcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nvcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nvcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nvcc"
+      - "C:/Windows/System32/OpenSSH/nvcc.com"
+      - "C:/Windows/System32/OpenSSH/nvcc.exe"
+      - "C:/Windows/System32/OpenSSH/nvcc"
+      - "C:/Program Files/nodejs/nvcc.com"
+      - "C:/Program Files/nodejs/nvcc.exe"
+      - "C:/Program Files/nodejs/nvcc"
+      - "C:/Softwares/Git/cmd/nvcc.com"
+      - "C:/Softwares/Git/cmd/nvcc.exe"
+      - "C:/Softwares/Git/cmd/nvcc"
+      - "C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/nvcc.com"
+      - "C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/nvcc.exe"
+      - "C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/nvcc"
+      - "C:/Users/PMLS/AppData/Local/Microsoft/WindowsApps/nvcc.com"
+      - "C:/Users/PMLS/AppData/Local/Microsoft/WindowsApps/nvcc.exe"
+      - "C:/Users/PMLS/AppData/Local/Microsoft/WindowsApps/nvcc"
+      - "C:/Softwares/Microsoft VS Code/bin/nvcc.com"
+      - "C:/Softwares/Microsoft VS Code/bin/nvcc.exe"
+      - "C:/Softwares/Microsoft VS Code/bin/nvcc"
+      - "C:/Users/PMLS/AppData/Roaming/npm/nvcc.com"
+      - "C:/Users/PMLS/AppData/Roaming/npm/nvcc.exe"
+      - "C:/Users/PMLS/AppData/Roaming/npm/nvcc"
+      - "C:/mingw64/bin/g++.exe/nvcc.com"
+      - "C:/mingw64/bin/g++.exe/nvcc.exe"
+      - "C:/mingw64/bin/g++.exe/nvcc"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/nvcc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/nvcc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/nvcc"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/ninja/win/x64/nvcc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/ninja/win/x64/nvcc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/ninja/win/x64/nvcc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\mingw\\bin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Softwares\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11-bin\\apache-maven-3.9.11\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Softwares\\Microsoft VS Code\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Roaming\\npm"
+        - "C:\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: [^
+      ]+ Cuda compiler driver":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCUDAFindToolkit.cmake:15 (find_program)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:108 (cmake_cuda_find_toolkit)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CUDA_NVCC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\mingw\\bin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Softwares\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11-bin\\apache-maven-3.9.11\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Softwares\\Microsoft VS Code\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Roaming\\npm"
+        - "C:\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\ninja\\win\\x64"
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: [^
+      ]+ Cuda compiler driver":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCUDAFindToolkit.cmake:15 (find_program)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:108 (cmake_cuda_find_toolkit)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CUDA_NVCC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\mingw\\bin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Softwares\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11-bin\\apache-maven-3.9.11\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Softwares\\Microsoft VS Code\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Roaming\\npm"
+        - "C:\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\ninja\\win\\x64"
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: [^
+      ]+ Cuda compiler driver":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:98 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCUDAFindToolkit.cmake:15 (find_program)"
+      - "C:/Program Files/JetBrains/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCUDACompiler.cmake:108 (cmake_cuda_find_toolkit)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CUDA_NVCC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\mingw\\bin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Softwares\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11-bin\\apache-maven-3.9.11\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Softwares\\Microsoft VS Code\\bin"
+        - "C:\\Users\\PMLS\\AppData\\Roaming\\npm"
+        - "C:\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.3.1\\bin\\ninja\\win\\x64"
+...
