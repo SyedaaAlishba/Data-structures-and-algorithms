@@ -1,0 +1,13 @@
+//
+// Created by PMYLS on 4/6/2026.
+//
+
+#ifndef MINISEARCHENGINE_SEARCHENGINE_H
+#define MINISEARCHENGINE_SEARCHENGINE_H
+
+
+class SearchEngine {
+};
+
+
+#endif //MINISEARCHENGINE_SEARCHENGINE_H
