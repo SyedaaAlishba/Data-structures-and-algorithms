@@ -1,13 +1,17 @@
-//
-// Created by PMYLS on 4/6/2026.
-//
+#ifndef SEARCHENGINE_H
+#define SEARCHENGINE_H
 
-#ifndef MINISEARCHENGINE_SEARCHENGINE_H
-#define MINISEARCHENGINE_SEARCHENGINE_H
-
+#include <vector>
+#include <string>
+using namespace std;
 
 class SearchEngine {
+private:
+    vector<string> documents;   // stores all documents
+
+public:
+    void loadDocuments();
+    void displayDocuments();
 };
 
-
-#endif //MINISEARCHENGINE_SEARCHENGINE_H
+#endif
