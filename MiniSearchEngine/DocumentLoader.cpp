@@ -1,26 +1,22 @@
-
-#include <iostream>
+#include "DocumentLoader.h"
 #include <fstream>
-#include <vector>
-#include <string>
-using namespace std;
+#include <iostream>
 
-class DocumentLoader {
-public:
-     string readFile(string filename);
-};
 string DocumentLoader::readFile(string filename) {
-    ifstream file(filename);   // file open
+    ifstream file(filename);
+
     if (!file) {
         cout << "Error opening file: " << filename << endl;
         return "";
     }
+
     string line;
     string content = "";
+
     while (getline(file, line)) {
-        content += line + " ";   // line ko add karo
+        content += line + " ";
     }
+
     file.close();
     return content;
 }
-
