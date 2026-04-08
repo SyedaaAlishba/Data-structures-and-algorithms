@@ -49,37 +49,41 @@ void Search(int val) {
 
 }
 // Function to delete a node by value
-void deleteNode(int val){
-    LLNode * cur= list;
-    if (val== list->data) {
-        list = list->next;
-        free(cur);
-        cout<<"Deleted"<<endl;
+void deleteNode(int val) {
+    if (list == NULL) {
+        cout << "List is empty" << endl;
+        return;
     }
-    else {
-        LLNode* temp = cur;
-        LLNode* prev = cur;
-        LLNode* next = cur->next;
-        while(next!=NULL) {
-            if (next->data == val) {
-                prev->next = next;
-                free(next);
-                cout<<"Deleted"<<endl;
 
-            }
-            else {
-                prev = cur;
-                cur = cur->next;
+    LLNode* temp = list;
 
-            }
-
-        }
-        free(temp);
-
-    cout<<"Deleted"<<endl;
+    // Case 1: Delete head node
+    if (temp->data == val) {
+        list = temp->next;
+        delete temp;
+        cout << "Deleted" << endl;
+        return;
     }
+
+    // Case 2: Search for node
+    LLNode* prev = NULL;
+
+    while (temp != NULL && temp->data != val) {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    // Case 3: Value not found
+    if (temp == NULL) {
+        cout << "Value not found" << endl;
+        return;
+    }
+
+    // Case 4: Delete node
+    prev->next = temp->next;
+    delete temp;
+    cout << "Deleted" << endl;
 }
-
 
 
 int main() {
