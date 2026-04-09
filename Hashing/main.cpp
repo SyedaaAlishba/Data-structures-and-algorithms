@@ -42,22 +42,23 @@ void insertHashArray(int val) {
 }
 
 void searchHashArray(int val) {
-       int index = hashFunction(val);
-       int startIndex = index;
+    int index = hashFunction(val);
+    int startIndex = index;
 
-       while (occupied[index]) {   // jab tak slot filled hai
-              if (hashArray[index] == val) {
-                     cout << "Found" << endl;
-                     return;
-              }
+    while (occupied[index] || deleted[index]) {
 
-              index = (index + 1) % SIZE;
+        if (occupied[index] && hashArray[index] == val) {
+            cout << "Found at index: " << index << endl;
+            return;
+        }
 
-              if (index == startIndex)
-                     break;
-       }
+        index = (index + 1) % SIZE;
 
-       cout << "Not Found" << endl;
+        if (index == startIndex)
+            break;
+    }
+
+    cout << "Not Found" << endl;
 }
 
 void deleteHashArray(int val) {
