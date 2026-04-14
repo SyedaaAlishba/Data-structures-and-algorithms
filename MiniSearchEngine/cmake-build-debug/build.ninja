@@ -70,6 +70,13 @@ build CMakeFiles/MiniSearchEngine.dir/SearchEngine.cpp.obj: CXX_COMPILER__MiniSe
   OBJECT_DIR = CMakeFiles\MiniSearchEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniSearchEngine.dir
 
+build CMakeFiles/MiniSearchEngine.dir/HashTable.cpp.obj: CXX_COMPILER__MiniSearchEngine_unscanned_Debug C$:/Users/PMLS/CLionProjects/MiniSearchEngine/HashTable.cpp || cmake_object_order_depends_target_MiniSearchEngine
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\MiniSearchEngine.dir\HashTable.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MiniSearchEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\MiniSearchEngine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MiniSearchEngine
@@ -78,7 +85,7 @@ build CMakeFiles/MiniSearchEngine.dir/SearchEngine.cpp.obj: CXX_COMPILER__MiniSe
 #############################################
 # Link the executable MiniSearchEngine.exe
 
-build MiniSearchEngine.exe: CXX_EXECUTABLE_LINKER__MiniSearchEngine_Debug CMakeFiles/MiniSearchEngine.dir/main.cpp.obj CMakeFiles/MiniSearchEngine.dir/DocumentLoader.cpp.obj CMakeFiles/MiniSearchEngine.dir/SearchEngine.cpp.obj
+build MiniSearchEngine.exe: CXX_EXECUTABLE_LINKER__MiniSearchEngine_Debug CMakeFiles/MiniSearchEngine.dir/main.cpp.obj CMakeFiles/MiniSearchEngine.dir/DocumentLoader.cpp.obj CMakeFiles/MiniSearchEngine.dir/SearchEngine.cpp.obj CMakeFiles/MiniSearchEngine.dir/HashTable.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

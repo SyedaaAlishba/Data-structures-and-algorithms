@@ -7,4 +7,6 @@ add_executable(MiniSearchEngine main.cpp
         DocumentLoader.cpp
         DocumentLoader.h
         SearchEngine.cpp
-        SearchEngine.h)
+        SearchEngine.h
+        HashTable.cpp
+        HashTable.h)
