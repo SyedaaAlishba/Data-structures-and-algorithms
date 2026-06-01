@@ -1,4 +1,4 @@
-## 📌 Graph Implementation using Adjacency Matrix (C++)
+<h2>📌 Graph Implementation using Adjacency Matrix (C++) </h2>
 
 ### 🔹 Overview
 
