@@ -1,8 +1,8 @@
 # 🌳 Tree Traversals in DSA
 
-## 📌 Traversal Types
+##  Traversal Types
 
-### 🔵 1. Preorder Traversal (Root → Left → Right)
+###  1. Preorder Traversal (Root → Left → Right)
 
 ```cpp
 void preOrder(Node* root) {
@@ -16,7 +16,7 @@ void preOrder(Node* root) {
 
 ---
 
-### 🟢 2. Inorder Traversal (Left → Root → Right)
+###  2. Inorder Traversal (Left → Root → Right)
 
 ```cpp
 void inOrder(Node* root) {
@@ -30,7 +30,7 @@ void inOrder(Node* root) {
 
 ---
 
-### 🔴 3. Postorder Traversal (Left → Right → Root)
+###  3. Postorder Traversal (Left → Right → Root)
 
 ```cpp
 void postOrder(Node* root) {
