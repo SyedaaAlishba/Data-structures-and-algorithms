@@ -56,6 +56,12 @@ int deleteMax(int heap[], int &size) {
 }
 
 
+void heapSort(int heap[], int size) {
+    for (int i = size; i > 0; i--) {
+        swap(heap[0], heap[i-1]);
+        heapifyDown(heap, i-1, 0);
+    }
+}
 int main() {
     int n;
     cout << "Enter size of heap: ";
@@ -75,6 +81,10 @@ int main() {
     for (int i = 0; i < size; i++) {
         cout << heap[i] << " ";
     }
+    cout << "Heap sort"<<endl;
+    heapSort(heap, size);
+    for (int i = 0; i < size; i++)
+        cout << heap[i] << " ";
     cout << "Deleted max: " << deleteMax(heap, size) << endl;
 
     cout << "Heap after deletion: ";
