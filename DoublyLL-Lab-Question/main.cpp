@@ -76,6 +76,95 @@ void findMAXandMIN(Node* &list) {
     cout<<"min "<<min<<endl;
 
 }
+
+void minToFirst(Node* &head, Node* &tail)
+{
+    if(head==NULL || head->next==NULL)
+        return;
+
+    Node* minNode=head;
+    Node* cur=head;
+
+    while(cur!=NULL)
+    {
+        if(cur->data < minNode->data)
+            minNode=cur;
+
+        cur=cur->next;
+    }
+
+    if(minNode==head)
+        return;
+
+    // Remove
+    if(minNode->prev!=NULL)
+        minNode->prev->next=minNode->next;
+
+    if(minNode->next!=NULL)
+        minNode->next->prev=minNode->prev;
+    else
+        tail=minNode->prev;
+
+    // Insert at head
+    minNode->prev=NULL;
+    minNode->next=head;
+    head->prev=minNode;
+    head=minNode;
+}
+void maxToLast(Node* &head, Node* &tail)
+{
+    if(head==NULL || head->next==NULL)
+        return;
+
+    Node* maxNode=head;
+    Node* cur=head;
+
+    while(cur!=NULL)
+    {
+        if(cur->data > maxNode->data)
+            maxNode=cur;
+
+        cur=cur->next;
+    }
+
+    if(maxNode==tail)
+        return;
+
+    // Remove
+    if(maxNode->prev!=NULL)
+        maxNode->prev->next=maxNode->next;
+    else
+        head=maxNode->next;
+
+    if(maxNode->next!=NULL)
+        maxNode->next->prev=maxNode->prev;
+
+    // Insert at tail
+    maxNode->next=NULL;
+    maxNode->prev=tail;
+    tail->next=maxNode;
+    tail=maxNode;
+}
+
+void middleNode(Node* head)
+{
+    if(head==NULL)
+    {
+        cout<<"List Empty";
+        return;
+    }
+
+    Node* slow=head;
+    Node* fast=head;
+
+    while(fast!=NULL && fast->next!=NULL)
+    {
+        slow=slow->next;
+        fast=fast->next->next;
+    }
+
+    cout<<"Middle Node = "<<slow->data<<endl;
+}
 int main() {
 cout<<"INSERT IN DOUBLY LL"<<endl;
     insert(list,10);
